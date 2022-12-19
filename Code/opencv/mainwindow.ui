@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="menuBt">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>781</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>add Image</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>781</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>kontrast</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="elementBt">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>160</y>
+      <width>781</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>поэлементные операции</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="threshold1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>230</y>
+      <width>781</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>threshold1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="threshold2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>300</y>
+      <width>781</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>threshold2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="adaptive">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>370</y>
+      <width>781</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>adaptive</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
